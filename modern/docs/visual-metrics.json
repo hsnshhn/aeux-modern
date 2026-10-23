@@ -1,0 +1,22 @@
+{
+  "basic": {
+    "dimensions": [640, 480],
+    "meanAbsoluteRGBError": 0.0997,
+    "scale": "0\u2013255"
+  },
+  "advanced": {
+    "dimensions": [640, 480],
+    "meanAbsoluteRGBError": 0.349,
+    "scale": "0\u2013255"
+  },
+  "images-2x": {
+    "dimensions": [640, 480],
+    "meanAbsoluteRGBError": 0.0129,
+    "scale": "0\u2013255"
+  },
+  "images-4x": {
+    "dimensions": [640, 480],
+    "meanAbsoluteRGBError": 0.0464,
+    "scale": "0\u2013255"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="io.aeuxmodern" ExtensionBundleVersion="0.1.0" ExtensionBundleName="AEUX Modern">
+  <ExtensionList><Extension Id="io.aeuxmodern.panel" Version="0.1.0"/></ExtensionList>
+  <ExecutionEnvironment><HostList><Host Name="AEFT" Version="[25.0,99.9]"/></HostList><LocaleList><Locale Code="All"/></LocaleList><RequiredRuntimeList><RequiredRuntime Name="CSXS" Version="11.0"/></RequiredRuntimeList></ExecutionEnvironment>
+  <DispatchInfoList><Extension Id="io.aeuxmodern.panel"><DispatchInfo>
+    <Resources><MainPath>./index.html</MainPath><ScriptPath>./host.jsx</ScriptPath><CEFCommandLine><Parameter>--enable-nodejs</Parameter><Parameter>--mixed-context</Parameter></CEFCommandLine></Resources>
+    <Lifecycle><AutoVisible>true</AutoVisible></Lifecycle>
+    <UI><Type>Panel</Type><Menu>AEUX Modern</Menu><Geometry><Size><Width>340</Width><Height>700</Height></Size><MinSize><Width>260</Width><Height>320</Height></MinSize><MaxSize><Width>800</Width><Height>1600</Height></MaxSize></Geometry></UI>
+  </DispatchInfo></Extension></DispatchInfoList>
+</ExtensionManifest>

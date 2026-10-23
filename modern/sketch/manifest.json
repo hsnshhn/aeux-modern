@@ -1,0 +1,74 @@
+{
+  "name": "AEUX Modern",
+  "description": "Transfer current Sketch frames to editable After Effects layers",
+  "author": "AEUX Modern contributors; original AEUX by Adam Plouff",
+  "homepage": "https://github.com/hsnshhn/aeux-modern",
+  "identifier": "io.aeuxmodern.sketch",
+  "version": "0.1.0",
+  "compatibleVersion": "2025.3",
+  "commands": [
+    {
+      "name": "Send selection to After Effects",
+      "identifier": "send",
+      "script": "plugin.js",
+      "handler": "onSend"
+    },
+    {
+      "name": "Send selection as images",
+      "identifier": "send-images",
+      "script": "plugin.js",
+      "handler": "onSendImages"
+    },
+    {
+      "name": "Preflight selection",
+      "identifier": "preflight",
+      "script": "plugin.js",
+      "handler": "onPreflight"
+    },
+    {
+      "name": "Export portable transfer…",
+      "identifier": "export",
+      "script": "plugin.js",
+      "handler": "onExport"
+    },
+    {
+      "name": "Export PNG images…",
+      "identifier": "export-images",
+      "script": "plugin.js",
+      "handler": "onExportImages"
+    },
+    {
+      "name": "Image export settings…",
+      "identifier": "image-settings",
+      "script": "plugin.js",
+      "handler": "onImageSettings"
+    },
+    {
+      "name": "Check AE connection",
+      "identifier": "health",
+      "script": "plugin.js",
+      "handler": "onHealth"
+    },
+    {
+      "name": "Check last transfer",
+      "identifier": "last-transfer",
+      "script": "plugin.js",
+      "handler": "onLastTransfer"
+    }
+  ],
+  "menu": {
+    "title": "AEUX Modern",
+    "items": [
+      "send",
+      "send-images",
+      "-",
+      "preflight",
+      "export",
+      "export-images",
+      "image-settings",
+      "-",
+      "health",
+      "last-transfer"
+    ]
+  }
+}
